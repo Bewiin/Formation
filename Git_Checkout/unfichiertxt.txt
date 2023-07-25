@@ -1,2 +1,6 @@
 J'écris dedans
+<<<<<<< Updated upstream
 Je rajoute des trucs dedans.
+=======
+Problème
+>>>>>>> Stashed changes
