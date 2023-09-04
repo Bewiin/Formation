@@ -1,0 +1,37 @@
+h1 {
+    font-size: 280%;
+    color: red;
+    text-align: center;
+}
+
+h3 {
+    color: blue;
+    font-size: 180%;
+}
+
+.deux-premier {
+    background-color: grey;
+}
+
+strong {
+    font-weight: normal;
+    color: yellowgreen;
+}
+
+em {
+    font-style: normal;
+    font-size: larger;
+    color: orange;
+    text-decoration: underline;
+}
+
+#fond-rose{
+    background-color: pink;
+}
+
+#titre_2{
+    color: green;
+    text-align: right;
+    text-decoration: underline;
+}
+
