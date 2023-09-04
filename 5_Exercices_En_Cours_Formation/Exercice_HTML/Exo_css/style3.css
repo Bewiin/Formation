@@ -1,0 +1,24 @@
+
+h1{
+    color: blue;
+}
+
+h1:hover{
+    color: green;
+}
+
+p:active{
+    background-color: grey;
+}
+
+a:visited{
+    color: lightgray;
+}
+
+a:link{
+    color: orange;
+}
+
+#picsum:hover{
+    display: none;
+}
