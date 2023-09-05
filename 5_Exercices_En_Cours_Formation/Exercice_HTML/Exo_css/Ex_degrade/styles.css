@@ -1,0 +1,42 @@
+#dégradé_blanc_noir {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border: solid 2px black;
+
+    
+    background: linear-gradient(white, #00000069)
+    
+  }
+
+
+#ombre_droite_haut {
+    box-shadow: 60px -16px teal;
+}
+
+#ombre_interieur {
+    box-shadow: inset 5em 1em blue;
+}
+
+#ombres_multiples_diffuses {
+    box-shadow: inset 0 0 1em gold,
+    0 0 2em red;
+}
+
+
+div {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border: solid 2px black;
+    
+
+}
+
+#lineaire_simple {
+    background: linear-gradient(to bottom left, red, green, blue)
+}
+
+#degrade_diagonal {
+    background: linear-gradient(-70deg, yellow, purple 25%);
+}
