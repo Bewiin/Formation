@@ -23,7 +23,6 @@
     0 0 2em red;
 }
 
-
 div {
     height: 200px;
     width: 200px;
@@ -39,4 +38,17 @@ div {
 
 #degrade_diagonal {
     background: linear-gradient(-70deg, yellow, purple 25%);
+}
+
+#degrade_radial {
+    background: radial-gradient(lightblue, pink );
+}
+
+#degrade_radial2 {
+    background: repeating-radial-gradient(circle at center, black, white 10px);
+}
+
+#degrade_radial2:hover {
+    background: repeating-radial-gradient(circle at center,
+    white, black 10px);
 }

@@ -1,0 +1,29 @@
+table {
+    border: solid black 2px;
+    text-align: center;
+    border-collapse: collapse;
+    background: repeating-radial-gradient(at center, blue 10px,  pink );
+}
+
+tr, td, th {
+    border: solid black 2px;
+}
+
+caption {
+    font-size: 100px;
+    background-color: red;
+    color: orange;
+    box-shadow: 10px -10px blue, 15px -15px orange;
+    margin: 20px;
+    font-family: comic sans ms;
+}
+caption:hover {
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
