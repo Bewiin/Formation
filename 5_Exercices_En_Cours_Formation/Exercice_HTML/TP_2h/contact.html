@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div id="banniere">
+            <img id="hisoka" src="./Hisoka.jpg" alt="image-aleatoire">
+        </div>
+    <h1>Bienvenu sur mon site !</h1>
+        <nav>
+            <ul>
+                <li><a class="nav" href="./index.html">Accueil</a></li>
+                <li><a class="nav" href="#article1">Blog</a></li>
+                <li><a class="nav" href="./galerie.html">Gallerie</a></li>
+                <li><a class="nav" href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        
+    </header>
+    <main>
+        <form method="post" action="my_page_PhP.php">
+            <fieldset>
+                <legend>Formulaire</legend>
+                    <div>
+                        <label for="nom">Nom:<sem class="sem">*</sem></label>
+                        <input type="text" placeholder="Jean"
+                        maxlength="20" minlength="2" id="nom" required>
+                    </div>
+
+                    <div>
+                        <label for="email">E-mail:<sem class="sem">*</sem></label>
+                        <input type="email" placeholder="Ex: Jean@gmail.com" id="email" required>
+                    </div>
+
+                    <div>
+                        <label for="commentaire">Commentaire</label>
+                        <br>
+                        <textarea id="commentaire" cols="70" rows="10" placeholder="Entrez votre commentaire"></textarea>
+                    </div>
+
+                    <div>
+                        <input id="check" type="checkbox" checked> <label for="check">Envoi par mail</label>
+                    </div>
+
+                    <div>                
+                        <input id="bouton_envoyer" type="submit" value="Envoyer">
+                        <input id="bouton_reset" type="reset" value="Reset">
+                    </div>
+            </fieldset>
+
+        </form>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="htpps://error.com">lien1</a></li>
+            <li><a href="htpps://error.com">lien2</a></li>
+            <li><a href="htpps://error.com">lien3</a></li>
+            <li><a href="htpps://error.com">lien4</a></li>
+        </ul>
+
+
+
+    </footer>
+    
+</body>
+</html>
