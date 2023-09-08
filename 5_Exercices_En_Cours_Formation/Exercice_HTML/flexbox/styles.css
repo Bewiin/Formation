@@ -1,0 +1,84 @@
+.dice{
+    border: 2px red solid;
+    border-radius: 25px;
+    background-color: lightgray;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    border: 1px red solid;
+    background-color: red;
+    border-radius: 10px;
+}
+
+#d1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#d2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#d3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#d4 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border: blue solid 3px;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap:wrap;
+}
+
+#d5 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border: blue solid 3px;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#d6 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border: blue solid 3px;
+    justify-content: center;
+    justify-content: space-around;
+    align-content: space-around;
+    
+}
+
+#gr1 {
+    display: flex;
+    background-color: aqua;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    
+    
+}
+
+#point2 {
+    align-self: flex-start;
+    
+    
+}
+
+
+
