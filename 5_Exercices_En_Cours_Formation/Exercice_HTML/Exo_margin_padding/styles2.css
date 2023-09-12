@@ -1,0 +1,49 @@
+form {
+    height: 250px;
+    width: 400px;
+    border: solid black 2px;
+    background-color: lightgrey;
+}
+
+h3 {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+h3, div:last-child {
+    text-align: center;
+}
+
+.psd_pwd {
+    margin-right: 20px;
+}
+
+#check {
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.button {
+    padding: 5px;
+    margin: 10px;
+    border: solid black 2px;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+
+}
+
+.test {
+    margin: 10px 10px 10px 30px;
+}
+
+#button2 {
+    margin-top: 20px;
+}
+
+
+form:last-child h3 {
+    color: red;
+}

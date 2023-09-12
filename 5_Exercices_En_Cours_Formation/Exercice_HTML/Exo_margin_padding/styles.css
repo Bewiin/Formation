@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: purple;
+}
+
+
+
+p {
+    border: green solid 2px;
+    background-color: lightgrey;
+}
+
+#p1 {
+    height: 100px;
+    margin: 0px;
+    padding: 20px;
+}
+
+#p2 {
+    width: 50%;
+    padding: 1.2em;
+    margin: 20px 5px;
+}
+
+#p3 {
+    height: 200px;
+    width: 200px;
+    padding: -30px ;
+    margin: auto;
+}   
