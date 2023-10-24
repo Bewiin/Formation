@@ -1,7 +1,16 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
+/*Le :root est obligatoire.*/
+
+:root{
+    --bg : linear-gradient( yellow , pink 70% );
+    --fontFamily : 'Arial';
+    --heiht : '12px';
+    --taille_theme : 4vw;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
 
 
 @font-face {
@@ -10,22 +19,80 @@
 }
 
 header {
+    width: 100vw;
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 30% 2fr 30%;
+    grid-template-rows: repeat(auto);
+    grid-template-columns: 33vw 33vw 33vw;
 }
 
 h1 {
     font-family: 'AmaticSC';
-    font-size: 450%;
-    text-align: center;
-    grid-row: 2;
+    align-self: center;
+    justify-self: center;
+    font-size: 10vw;
+    grid-row: 1;
     grid-column: 2;
 }
 
 img {
-    width: 150px;
-    height: 150px;
+    width: 10vw;
+    height: 10vw;
     grid-column: 1;
     grid-row: 1;
 }
+h6{
+    font-size: 3vw;
+    text-align: center;
+}
+
+#fonction_theme {
+    width: 33vw;
+    display: flex;
+    flex-wrap: wrap;
+    grid-row: 2 ;
+    grid-column: 1;
+    
+    
+}
+#titre_choix{
+    width: 33vw;
+    align-self: center;
+    justify-self: center;
+}
+#theme{
+    width: 33vw;
+    flex-shrink: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#theme1 {
+    
+    height: var(--taille_theme);
+    width: var(--taille_theme);
+    border-radius: 100%;
+    background: var(--bg);
+}
+#theme2 {
+   
+    height: var(--taille_theme);
+    width: var(--taille_theme);
+    border-radius: 100%;
+    background: linear-gradient( blue , red 70% );
+}
+#theme3 {
+    
+    height: var(--taille_theme);
+    width: var(--taille_theme);
+    border-radius: 100%;
+    background: linear-gradient( brown , green 70% );
+}
+#theme4 {
+    
+    height: var(--taille_theme);
+    width: var(--taille_theme);
+    border-radius: 100%;
+    background: linear-gradient( purple, pink 70% );
+}
+
+
