@@ -29,7 +29,7 @@ h1 {
     font-family: 'AmaticSC';
     align-self: center;
     justify-self: center;
-    font-size: 10vw;
+    font-size: 8vw;
     grid-row: 1;
     grid-column: 2;
 }
@@ -41,7 +41,7 @@ img {
     grid-row: 1;
 }
 h6{
-    font-size: 3vw;
+    font-size: 2vw;
     text-align: center;
 }
 
