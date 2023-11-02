@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HippoCheer</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
     <script src="./script.js" async></script>
     
@@ -12,7 +11,7 @@
 <body>
     <header>
         <h1>HippoCheer</h1>
-            <div id="Logo"><img src="hippos5.jpg"></div>
+            <div id="Logo"><img src="./hippos5-removebg-preview.png"></div>
                 <div id="fonction_theme">
                     <div id="titre_choix"><h6>Choisis ton thème !</h6></div>
                     <div id="theme">
@@ -23,18 +22,36 @@
                     </div>
                 </div>
     </header>
-    <main>
-            <button id="menu" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Enable both scrolling & backdrop</button>
-        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-        <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    <main id="main-content">
+        <nav>
+            <svg id="croix" xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32" fill="none">
+                <line x1="31.0607" y1="1.06066" x2="2.06066" y2="30.0607" stroke="black" stroke-width="3"/>
+                <line y1="-1.5" x2="41.0122" y2="-1.5" transform="matrix(0.707107 0.707107 0.707107 -0.707107 3 0)" stroke="black" stroke-width="3"/>
+              </svg>
+            <ul>
+                <li>Mon tableau</li>
+                <li>Récompenses</li>
+                <li>Bonnes pratiques</li>
+                <li>Historique</li>
+            </ul>
+        </nav>
+        <div id="en-tete-main"><img id="menu" src="./🦆 icon _burger menu left_.svg">
+        <h4 id="titre-main">Bienvenue sur HippoCheer !</h4>
         </div>
-        <div class="offcanvas-body">
-            <p>Try scrolling the rest of the page to see this option in action.</p>
-        </div>
-        </div>
+        <p class="main-txt">Le but d'HippoCheer est de créer un lien et un suivi entre les bonnes actions et les bons comportement de votre enfant, ainsi que les recompenses et les remerciements que vous lui accorder.</p>
+        
+
+        <p>Encourager, valoriser et récompenser, sont les maître mots d'HippoCheer.</p>
+        
+            
+        <p>Pour une approche réussis de la méthode, n'oublie pas, “Un point après l'autre”.</p>
+            
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <footer>
+        <div id="foot">
+            <p id="mention">Mention légales</p>
+            <p id="contact">Nous contacter !</p>
+        </div>
+    </footer>
 </body>
 </html>

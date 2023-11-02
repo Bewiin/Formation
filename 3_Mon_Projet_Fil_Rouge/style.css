@@ -2,10 +2,14 @@
 /*Le :root est obligatoire.*/
 
 :root{
-    --bg : linear-gradient( yellow , pink 70% );
+    --bg : linear-gradient(#FFF7AD , #FFA9F9 80% );
+    --bgt2 :linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);;
+    --bgt3 : linear-gradient(#F69F98,#FDD5C8,#FAF2E8,#5EE1F1);
+    --bgt4 : linear-gradient( purple, pink 70% );
+    --tgrey : #535353;
     --fontFamily : 'Arial';
     --heiht : '12px';
-    --taille_theme : 4vw;
+    --taille_theme : 10vw;
 }
 body{
     padding: 0;
@@ -16,37 +20,63 @@ body{
 @font-face {
     font-family: 'AmaticSC';
     src: url(./AmaticSC-Bold.ttf) format('truetype');
+    
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url(./Raleway-BlackItalic.ttf) format('truetype');
 }
 
 header {
+    z-index: 1000;
+    position: sticky;
+    top: 0px;
+    bottom: 500px;
+    margin-bottom: 0;
     width: 100vw;
     display: grid;
     grid-template-rows: repeat(auto);
     grid-template-columns: 33vw 33vw 33vw;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 
 h1 {
+    margin-left: 8vw;
+    margin-bottom: 4vw;
     font-family: 'AmaticSC';
     align-self: center;
     justify-self: center;
-    font-size: 8vw;
+    font-size: 15vw;
     grid-row: 1;
     grid-column: 2;
 }
 
 img {
-    width: 10vw;
-    height: 10vw;
+    width: 30vw;
+    height: 30vw;
     grid-column: 1;
     grid-row: 1;
 }
+
 h6{
-    font-size: 2vw;
+    margin: 0;
+    font-size: 4vw;
     text-align: center;
+}
+h4{
+    color: var(--tgrey);
+    padding: 1vw;
+    margin-left: 2vw;
+    margin-top: 0;
+    margin-bottom: 2vw;
+    font-size: 6vw;
+    justify-self: end;
+    text-align: center;
+    align-self: center;
 }
 
 #fonction_theme {
-    width: 33vw;
+    width: 99vw;
     display: flex;
     flex-wrap: wrap;
     grid-row: 2 ;
@@ -55,44 +85,128 @@ h6{
     
 }
 #titre_choix{
-    width: 33vw;
-    align-self: center;
+    width: 99vw;
+    align-self: start;
     justify-self: center;
 }
 #theme{
-    width: 33vw;
+    width: 99vw;
     flex-shrink: inherit;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-self: center;
+    justify-content: space-evenly;
+    margin-bottom: 3vw;
 }
 #theme1 {
-    
+    margin-left: 7vw;
     height: var(--taille_theme);
     width: var(--taille_theme);
     border-radius: 100%;
     background: var(--bg);
+    
+    
 }
 #theme2 {
    
     height: var(--taille_theme);
     width: var(--taille_theme);
     border-radius: 100%;
-    background: linear-gradient( blue , red 70% );
+    background: var(--bgt2);
+    
 }
 #theme3 {
     
     height: var(--taille_theme);
     width: var(--taille_theme);
     border-radius: 100%;
-    background: linear-gradient( brown , green 70% );
+    background: var(--bgt3);
+
 }
 #theme4 {
-    
+    margin-right: 7vw;
     height: var(--taille_theme);
     width: var(--taille_theme);
     border-radius: 100%;
-    background: linear-gradient( purple, pink 70% );
+    background: var(--bgt4);
+    
 }
 
+#main-content {
+    background: var(--bg);
+    margin-top: 0;
+    height: 60vh;
+    
+}
+main p{
+    color: var(--tgrey);
+    text-shadow: black;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 7vw;
+}
 
+#en-tete-main{
+    width: 100%;
+    display: flex;
+    
+}
+
+#menu{
+    margin-left: 2vw;
+    width: 10vw;
+    height: 10vh;
+}
+
+#foot {
+    display: flex;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    text-decoration: underline;
+    
+}
+
+#mention {
+    
+    
+}
+#croix{
+    margin: 3vw;
+    position: absolute;
+}
+#contact{
+    
+}
+nav{
+    /* display: none; */
+    /* overflow: hidden; */
+    width: 100vw;
+    height: 60vh;
+    transform: translateY(-62vh);
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    background-color: #737373;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-decoration: underline;
+    text-decoration-color: #FFA9F9;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    color: #FFA9F9;
+    font-family: 'Raleway';
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+ul :nth-child(odd){
+    color:#FFF7AD ;
+}
